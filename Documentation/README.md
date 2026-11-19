@@ -22,8 +22,7 @@ py -3.14 -m pip install -r Documentation/requirements-docs.txt
 py -3.14 -m mkdocs serve -f Documentation/mkdocs.yml
 ```
 
-Open **http://127.0.0.1:8000/OSHE-PnP/** (keep the `/OSHE-PnP/` part). Saving a page reloads the
-browser. `Ctrl+C` stops it.
+Open **http://127.0.0.1:8000/**. Saving a page reloads the browser. `Ctrl+C` stops it.
 
 ## Publish it (GitHub Pages): not switched on yet
 
@@ -33,11 +32,19 @@ browser. `Ctrl+C` stops it.
 
 1. **Settings -> Pages -> Build and deployment -> Source: GitHub Actions**.
 2. **Settings -> Secrets and variables -> Actions -> Variables**: add `PUBLISH_DOCS` = `true`.
-3. Optional custom domain (for example `pnp.oshe.io`, which needs a CNAME record pointing to
-   `oshe-github.github.io` from whoever manages oshe.io's DNS): enter it under Settings -> Pages,
-   and change `site_url` in `mkdocs.yml` to match.
+3. Custom domain **pnp.oshe.io** (planned; `site_url` in `mkdocs.yml` is already set to it):
+   - **Before asking for DNS**, claim the domain for the org: OSHE-Github **organisation**
+     Settings -> Pages -> **Add a domain** -> `oshe.io`. GitHub shows a TXT record
+     (`_github-pages-challenge-OSHE-Github` with a code). This stops anyone else's GitHub Pages
+     site from using pnp.oshe.io.
+   - Ask whoever runs oshe.io's DNS (campus IT) for two records:
+     `CNAME  pnp  ->  oshe-github.github.io`  and that TXT record.
+   - When they're in: back in the org Pages settings click **Verify**; then in the
+     **repository** Settings -> Pages enter `pnp.oshe.io` as custom domain, wait for the
+     certificate, and tick **Enforce HTTPS**.
 
-Without a custom domain the address is `https://oshe-github.github.io/OSHE-PnP/`.
+Until the DNS exists, a published site is at `https://oshe-github.github.io/OSHE-PnP/` (it works
+there too; only the "canonical" address in the page headers already says pnp.oshe.io).
 
 ## Writing pages
 

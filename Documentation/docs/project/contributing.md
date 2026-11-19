@@ -14,7 +14,7 @@ projects and how to get involved: [oshe.io](https://oshe.io).
   py -3.14 -m pip install -r Documentation/requirements-docs.txt
   py -3.14 -m mkdocs serve -f Documentation/mkdocs.yml
   ```
-  then open http://127.0.0.1:8000/OSHE-PnP/ (Python 3.14 or older; details in
+  then open http://127.0.0.1:8000/ (Python 3.14 or older; details in
   `Documentation/README.md`). Run `mkdocs build --strict` before committing.
 
 ### Repository layout

@@ -4,7 +4,9 @@
 # Build:    mkdocs build -f Documentation/mkdocs.yml --strict  -> Documentation/site/
 site_name: OSHE Pick and Place
 site_description: An open-source pick-and-place machine built from an Ender 3, by the Open Source Hardware Enterprise at Michigan Tech.
-site_url: https://oshe-github.github.io/OSHE-PnP/
+# The planned address (CNAME pnp -> oshe-github.github.io in oshe.io's DNS, see Documentation/README.md).
+# All links are relative, so the site also works at https://oshe-github.github.io/OSHE-PnP/ meanwhile.
+site_url: https://pnp.oshe.io/
 repo_url: https://github.com/OSHE-Github/OSHE-PnP
 repo_name: OSHE-Github/OSHE-PnP
 edit_uri: edit/main/Documentation/docs/
