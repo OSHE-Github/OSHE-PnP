@@ -10,10 +10,12 @@ projects and how to get involved: [oshe.io](https://oshe.io).
 - Run the tests first: `pytest` in `Software/pnpvision` and `Software/Slicer`.
 - **Edit these docs**: the pencil icon on every page opens the Markdown file on GitHub. To preview
   locally:
-  ```bash
-  pip install -r Documentation/requirements-docs.txt
-  mkdocs serve -f Documentation/mkdocs.yml
+  ```powershell
+  py -3.14 -m pip install -r Documentation/requirements-docs.txt
+  py -3.14 -m mkdocs serve -f Documentation/mkdocs.yml
   ```
+  then open http://127.0.0.1:8000/ (Python 3.14 or older; details in
+  `Documentation/README.md`). Run `mkdocs build --strict` before committing.
 
 ### Repository layout
 

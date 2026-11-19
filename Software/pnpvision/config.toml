@@ -134,7 +134,7 @@ clamp_height_mm = 10.0
 [feeders]
 # bus "klipper": servos on the Uno, Klipper/pnp_feeders.cfg; a feed = `<macro> SLOT=n`, where n is the
 # feeder's "servo" in feeders.json (slot, left to right). bus "serial": the old feeder Nano
-# (Software/feeder_nano/feeder_nano.ino) on USB, using port/baud/timeout_s below.
+# (Archive/feeder_nano/feeder_nano.ino) on USB, using port/baud/timeout_s below.
 bus = "klipper"
 macro = "FEEDER_TOGGLE"
 port = "/dev/ttyUSB0"

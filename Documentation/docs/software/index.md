@@ -29,7 +29,7 @@ KiCad -> pnpslice.exe -> job file -> pnpvision (calibration, jobs)
 | OS | MainsailOS (Raspberry Pi OS Bookworm based, 64-bit, kernel 6.12) |
 | Klipper, Moonraker, Mainsail, KlipperScreen, crowsnest | as installed by MainsailOS, updated through Mainsail's Update Manager |
 | Klipper extensions | `gcode_shell_command` (KIAUH), `klipper-led_effect` |
-| Python on the Pi | 3.11 (system) in a venv `~/venv-pnp`; packages pinned in `Software/pnpvision/requirements-lock.txt` |
+| Python on the Pi | 3.11 (system) in a venv `~/venv-pnp`; packages in `Software/pnpvision/requirements.txt` (exact pinned versions: **Ongoing**, from `pip freeze` on the Pi) |
 | Your computer | Windows 10/11 for `pnpslice.exe`; or any OS with Python 3.10 - 3.13 to run pnpslice from source |
 | KiCad | 6 or newer |
 

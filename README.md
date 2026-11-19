@@ -73,10 +73,10 @@ Full numbers, plots and the test procedure: `Documentation/docs/testing/`.
 | [`Software/Klipper/`](Software/Klipper) | Klipper config (`printer.cfg`, macros, feeders, lights) and the touchscreen Job page |
 | [`Software/pnpvision/`](Software/pnpvision) | the machine software on the Pi: calibration, board alignment, job runner, reports |
 | [`Software/Slicer/`](Software/Slicer) | **pnpslice**: KiCad board -> job file (Windows app or Python) |
-| [`Software/Legacy-Marlin/`](Software/Legacy-Marlin), [`Software/feeder_nano/`](Software/feeder_nano) | old firmware, not used by V3 |
+| [`Software/Legacy-Marlin/`](Software/Legacy-Marlin) | old V1 firmware, not used by V3 |
 | [`Documentation/`](Documentation) | the documentation site (`docs/`) and sample machine outputs (`samples/`) |
 | [`Media/`](Media) | photos, renders, videos |
-| [`Archive/`](Archive) | earlier tools; the camera-calibration tool in there is still used by V3 |
+| [`Archive/`](Archive) | earlier tools and the obsolete Nano feeder firmware; the camera-calibration tool in there is still used by V3 |
 
 ## 💻 Getting Started
 
@@ -113,9 +113,9 @@ Jake G and Isaac A (joined for V3).
 
 ## 🤝 Project Sponsors
 
-<img src="Media/Sponsors/harbor-country-marine.png" alt="Harbor Country Marine, New Buffalo, MI" width="320">
+<img src="Media/Sponsors/harbor-country-marine.png" alt="Harbor Country Marine" width="320">
 
-**Harbor Country Marine**, New Buffalo, MI: thank you for supporting the project.
+**Harbor Country Marine**: thank you for supporting the project.
 
 ---
 

@@ -6,3 +6,4 @@
 | Spring 2026 | V2.0 | Klipper, rotating toolhead, vacuum pump, modular frame (Google Doc / PDF) |
 | 2026-11 | V3 docs site (HTML) | first V3 pages: hardware, software, vision, slicer |
 | 2026-11-18 | V3 docs (this site) | moved to MkDocs; feeders on the Uno; touchscreen Job page and emergency stop; SD/USB job loading; speed settings; acceptance tests and results; calibration lessons; safety, startup, shutdown, maintenance |
+| 2026-11-19 | V3 docs | READMEs brought in line with this site; sponsor; hearing protection; job video and GIFs; corrected feeder credit |

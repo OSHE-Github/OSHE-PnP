@@ -3,7 +3,8 @@
 # To publish (repo admin, OSHE-Github/OSHE-PnP):
 #   1. Settings -> Pages -> Source: GitHub Actions
 #   2. Settings -> Secrets and variables -> Actions -> Variables: add PUBLISH_DOCS = true
-#   3. Custom domain (e.g. pnp.oshe.io): set it in Settings -> Pages, and set site_url in mkdocs.yml
+#   3. Custom domain pnp.oshe.io (site_url in mkdocs.yml already set): after campus IT adds the DNS
+#      records (see Documentation/README.md), enter it in Settings -> Pages and enforce HTTPS
 name: docs
 
 on:

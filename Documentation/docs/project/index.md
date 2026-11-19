@@ -17,9 +17,9 @@ Jake G and Isaac A (joined for V3).
 
 ## Sponsors
 
-![Harbor Country Marine, New Buffalo, MI](../assets/harbor-country-marine.png){ width="320" }
+![Harbor Country Marine](../assets/harbor-country-marine.png){ width="320" }
 
-**Harbor Country Marine** (New Buffalo, MI) sponsors the project. Thank you!
+**Harbor Country Marine** sponsors the project. Thank you!
 
 ## Pages
 

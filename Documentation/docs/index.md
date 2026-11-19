@@ -107,4 +107,4 @@ Made by students of the **Open Source Hardware Enterprise** at Michigan Technolo
 
 Use the search box at the top to find anything else.
 
-*Sponsored by **Harbor Country Marine**, New Buffalo, MI ([Project](project/index.md#sponsors)).*
+*Sponsored by **Harbor Country Marine** ([Project](project/index.md#sponsors)).*

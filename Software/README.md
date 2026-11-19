@@ -23,10 +23,10 @@ KiCad -> pnpslice -> job file  ----> pnpvision (calibration, jobs, reports)
 | [`Klipper/`](Klipper) | Klipper configuration, touchscreen menu and Job page, SD/USB mount rule | [Klipper/README.md](Klipper/README.md) |
 | [`pnpvision/`](pnpvision) | Python on the Pi: visual homing, camera calibration, board alignment, the job runner, board check, reports, SD/USB import | [pnpvision/README.md](pnpvision/README.md) |
 | [`Slicer/`](Slicer) | **pnpslice**: KiCad board -> `oshe-pnp-job/1` job file; Windows app or Python | [Slicer/README.md](Slicer/README.md) |
-| [`feeder_nano/`](feeder_nano) | **obsolete** Arduino Nano feeder firmware (replaced by Klipper servos on the Uno) | [feeder_nano/README.md](feeder_nano/README.md) |
 | [`Legacy-Marlin/`](Legacy-Marlin) | **obsolete** V1 Marlin firmware | - |
 
-Lens calibration and the undistorted camera views come from
+The obsolete Arduino Nano feeder firmware (replaced by Klipper servos on the Uno) is in
+[`Archive/feeder_nano`](../Archive/feeder_nano). Lens calibration and the undistorted camera views come from
 [`Archive/USB Camera Calibration Vibecode Project`](../Archive/USB%20Camera%20Calibration%20Vibecode%20Project)
 (still used by V3).
 
