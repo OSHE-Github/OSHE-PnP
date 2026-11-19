@@ -8,8 +8,9 @@ It never contains machine coordinates: the machine finds the board itself.
 
 === "Windows app (easiest)"
 
-    Download `pnpslice.exe` from the repository's **Releases** page and double-click it. No Python
-    needed. To build it yourself: `Software/Slicer/build_exe.ps1` (see `Software/Slicer/README.md`).
+    Double-click `pnpslice.exe`. No Python needed. Build it once with
+    `Software/Slicer/build_exe.ps1` (it lands in `Software/Slicer/dist/`; see
+    `Software/Slicer/README.md`); it will also be attached to the repository's **Releases**.
 
 === "From source (any OS)"
 

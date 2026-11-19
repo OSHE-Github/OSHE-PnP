@@ -13,9 +13,11 @@ master copies in `Software/Klipper/`.
 | `LEDS.cfg` | same folder | toolhead, up-camera and frame lights and their effects |
 | `KlipperScreen_pnp.conf` | pasted into `KlipperScreen.conf` | the touchscreen "Pick & Place" menu |
 | `klipperscreen/pnp_job.py` | linked into `~/KlipperScreen/panels/` | the touchscreen Job page |
+| `sudoers-pnp-usb-import` | installed to `/etc/sudoers.d/pnp-usb-import` | lets the SD/USB button mount a stick read-only, nothing else |
 
 `Software/Klipper/from-pi/` is an **old snapshot** (2026-11-08) kept for reference only. Klipper
-never reads it.
+never reads it. `Software/feeder_nano/` (Arduino Nano feeder firmware) is **obsolete**: the
+feeders run from the Uno through Klipper.
 
 !!! note "`[force_move]` is on, on purpose"
     Visual homing re-zeros X/Y with `SET_KINEMATIC_POSITION`, which Klipper only allows with

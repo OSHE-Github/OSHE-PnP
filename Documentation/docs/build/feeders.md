@@ -2,7 +2,8 @@
 
 V3 uses the **0816 tape feeder** (original design by mgrl), via a low-profile worm-gear remix from
 MakerWorld that we modified further to fit standard fasteners. A hobby servo pushes a lever that advances the tape by one pocket (4 mm for 0603/0805
-paper tape). Files: `CAD/V3-Active/Feeder` (left end, right end, rib).
+paper tape). Files: `CAD/V3-Active/Feeder/Tape Alignment` (left end, right end, rib); the
+modified feeder body (`Feeder/0816 Feeder`) is **Ongoing**.
 
 1. Print one set of feeder parts per feeder.
 2. Assemble the mechanism following the original 0816 feeder documentation.

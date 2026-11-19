@@ -17,7 +17,7 @@ Sample camera images and report files from the acceptance runs are in
 
 | Sponsor | File |
 |---|---|
-| Harbor Country Marine, New Buffalo, MI | `Sponsors/harbor-country-marine.png` |
+| Harbor Country Marine | `Sponsors/harbor-country-marine.png` |
 
 ## V2 (Spring 2026, legacy) Assembly Gallery
 

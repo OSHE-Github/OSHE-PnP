@@ -121,12 +121,12 @@ change every time the ring light switches.
 ```bash
 python3 -m venv ~/venv-pnp
 cd ~/OSHE-PnP/Software/pnpvision
-~/venv-pnp/bin/pip install --only-binary=:all: -r requirements-lock.txt
+~/venv-pnp/bin/pip install --only-binary=:all: -r requirements.txt
 ~/venv-pnp/bin/python -m pnpvision check-lens     # no moves: checks the lens calibration files
 ```
 
-(`requirements-lock.txt` has the exact versions the machine runs; `requirements.txt` lists the
-packages without versions.)
+(`requirements.txt` lists the packages: numpy, OpenCV (headless) and requests. A file with the
+exact versions the prototype runs is **Ongoing**.)
 
 ### Allow SD/USB job loading
 
