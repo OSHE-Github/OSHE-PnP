@@ -6,8 +6,11 @@ Photos, renders and videos of the OSHE Pick and Place. Licensed CC BY-SA 4.0.
 
 | What | File | Notes |
 |---|---|---|
+| **Hero photo** | ![V3 front](../Documentation/docs/assets/hero.jpg) | `Documentation/docs/assets/hero.jpg`, front view; README and docs home page |
+| **In the lab** | ![V3 angled](../Documentation/docs/assets/lab.jpg) | `Documentation/docs/assets/lab.jpg`, angled view with reel holder |
 | **Placing 0603s, real speed** | ![V3 placing parts](../Documentation/docs/assets/media/job-realtime.gif) | `Documentation/docs/assets/media/job-realtime.gif` (14 s, two parts); also `job-realtime.mp4` (23 s) and `one-part-realtime.gif` (7 s) |
-| Hero photo | *coming* | full machine, for the README and the docs home page |
+| **From above, real speed** | ![V3 from above](../Documentation/docs/assets/media/top-down.gif) | `Documentation/docs/assets/media/top-down.gif` (9 s); full clip `top-down.mp4` (18 s) |
+| **Close up, real speed** | - | `Documentation/docs/assets/media/close-up.mp4` (12 s), nozzle over the up camera |
 | Render | *coming* | from `CAD/V3-Active/PnP_Full_Assembly_V3.step` |
 
 Sample camera images and report files from the acceptance runs are in

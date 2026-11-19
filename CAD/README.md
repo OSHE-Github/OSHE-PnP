@@ -2,9 +2,9 @@
 
 <div align="center">
 
-![V3 placing 0603 resistors](../Documentation/docs/assets/media/job-realtime.gif)
+![The assembled V3](../Documentation/docs/assets/lab.jpg)
 
-*V3 at work. (A V3 render will replace this once `PnP_Full_Assembly_V3.step` is added.)*
+*The assembled V3 with its reel holder. (A V3 render will join this once `PnP_Full_Assembly_V3.step` is added.)*
 
 </div>
 
