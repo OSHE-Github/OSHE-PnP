@@ -1,5 +1,10 @@
 # 4. Run a Job
 
+<figure class="oshe-video">
+<video src="../../assets/media/top-down.mp4" autoplay loop muted playsinline style="max-width: 420px"></video>
+<figcaption>A job running, seen from above (real speed).</figcaption>
+</figure>
+
 ## Put the board on the plate
 
 1. Put the board against the fixed PCB mount, slide the adjustable mount up and tighten.

@@ -6,6 +6,11 @@ The OSHE Pick and Place is an open-source hardware project of the
 The machine moves a single vacuum nozzle over a fixed plate. The board sits on the plate, the tape
 feeders sit at the front, and two cameras tell the software exactly where everything is.
 
+<figure class="oshe-photo">
+<img src="../assets/lab.jpg" alt="The V3 machine on a lab bench with the reel holder in front">
+<figcaption>Reels sit in the holder in front, tape runs into the feeders on the front rail, and the touchscreen is on the right.</figcaption>
+</figure>
+
 ## The parts of the machine
 
 | Subsystem | What it is |

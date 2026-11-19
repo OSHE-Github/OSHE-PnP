@@ -16,7 +16,7 @@ Final acceptance runs, 2026-11-18. Procedure and conditions: [Acceptance Tests](
 
 <figure class="oshe-video" markdown>
 <video src="../../assets/media/job-realtime.mp4" controls loop muted playsinline></video>
-<figcaption>Part of a 23-part run at real speed, then the finished board.</figcaption>
+<figcaption>Part of an acceptance run at real speed.</figcaption>
 </figure>
 
 ## Runs

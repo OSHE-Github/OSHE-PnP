@@ -172,6 +172,31 @@
   border-radius: 12px;
   border: 2px solid var(--oshe-gold);
 }
+/* Material caps captions at 24rem; let them run the width of the media */
+.md-typeset .oshe-video figcaption,
+.md-typeset .oshe-photo figcaption {
+  max-width: none;
+  margin: 0.5rem 0 0;
+}
+/* Two videos side by side (stacked on phones) */
+.oshe-videos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  align-items: start;
+}
+.md-typeset .oshe-videos figure {
+  margin: 0;
+}
+/* Photos of the machine */
+.md-typeset .oshe-photo img {
+  width: 100%;
+  border-radius: 12px;
+}
+.md-typeset .oshe-photo {
+  margin: 0 0 1.5rem;
+  max-width: none;
+}
 .md-typeset img.oshe-gif {
   border-radius: 12px;
   max-width: 480px;

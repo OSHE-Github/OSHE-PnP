@@ -8,9 +8,11 @@
 
 <div align="center">
 
+![The OSHE Pick and Place V3 with tape feeders, reel holder and touchscreen](Documentation/docs/assets/hero.jpg)
+
 ![V3 placing 0603 resistors at real speed](Documentation/docs/assets/media/job-realtime.gif)
 
-*V3 placing 0603 resistors at real speed: feed, pick, up-camera check, place.*
+*V3 placing parts at real speed: feed, pick, up-camera check, place.*
 
 </div>
 
