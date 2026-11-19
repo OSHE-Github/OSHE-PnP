@@ -1,4 +1,4 @@
-# feeder_nano (obsolete)
+# 🗄️ Archive: feeder_nano (obsolete)
 
 > [!WARNING]
 > **Not used by V3. Don't flash this for the current machine.** Since 2026-11-16 the feeder servos

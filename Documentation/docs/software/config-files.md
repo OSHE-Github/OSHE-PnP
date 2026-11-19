@@ -16,7 +16,7 @@ master copies in `Software/Klipper/`.
 | `sudoers-pnp-usb-import` | installed to `/etc/sudoers.d/pnp-usb-import` | lets the SD/USB button mount a stick read-only, nothing else |
 
 `Software/Klipper/from-pi/` is an **old snapshot** (2026-11-08) kept for reference only. Klipper
-never reads it. `Software/feeder_nano/` (Arduino Nano feeder firmware) is **obsolete**: the
+never reads it. `Archive/feeder_nano/` (Arduino Nano feeder firmware) is **obsolete**: the
 feeders run from the Uno through Klipper.
 
 !!! note "`[force_move]` is on, on purpose"

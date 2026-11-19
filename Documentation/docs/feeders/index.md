@@ -10,7 +10,7 @@ pnpvision run-job -> Moonraker -> FEEDER_TOGGLE SLOT=1 -> Klipper -> Arduino Uno
 ```
 
 - The servos are Klipper `[servo feeder_N]` objects on the Uno (`pnp_feeders.cfg`). The older
-  Arduino Nano firmware (`Software/feeder_nano`) is not used any more.
+  Arduino Nano firmware (`Archive/feeder_nano`) is not used any more.
 - One feed: servo 0° -> stroke angle -> 0° (400 ms out, 400 ms back), then the servo goes limp so
   it doesn't buzz at rest.
 - pnpvision knows which feeder holds which package from `calibration/feeders.json`
