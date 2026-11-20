@@ -178,16 +178,6 @@
   max-width: none;
   margin: 0.5rem 0 0;
 }
-/* Two videos side by side (stacked on phones) */
-.oshe-videos {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1rem;
-  align-items: start;
-}
-.md-typeset .oshe-videos figure {
-  margin: 0;
-}
 /* Photos of the machine */
 .md-typeset .oshe-photo img {
   width: 100%;

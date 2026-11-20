@@ -30,25 +30,14 @@ Made by students of the **Open Source Hardware Enterprise** at Michigan Technolo
 </div>
 
 <figure class="oshe-photo">
-<img src="assets/hero.jpg" alt="The OSHE Pick and Place V3 with its three tape feeders, reel holder and touchscreen">
-<figcaption>V3 in the lab: three tape feeders on the front rail, reels behind, touchscreen on the right.</figcaption>
+<img src="assets/hero.jpg" alt="The OSHE Pick and Place V3 with its reel holder, tape feeders and touchscreen">
+<figcaption>V3 in the lab: reels in the holder at the front, three tape feeders, touchscreen on the right.</figcaption>
 </figure>
 
 <figure class="oshe-video">
 <video src="assets/media/job-realtime.mp4" autoplay loop muted playsinline></video>
-<figcaption>Placing parts on a test board at real speed: feed, pick, camera check, place.</figcaption>
+<figcaption>Placing parts on a test board at real speed.</figcaption>
 </figure>
-
-<div class="oshe-videos">
-<figure class="oshe-video">
-<video src="assets/media/top-down.mp4" autoplay loop muted playsinline></video>
-<figcaption>From above: the head travels between the up camera and the board.</figcaption>
-</figure>
-<figure class="oshe-video">
-<video src="assets/media/close-up.mp4" autoplay loop muted playsinline></video>
-<figcaption>Close up: the vacuum nozzle over the up camera's ring light.</figcaption>
-</figure>
-</div>
 
 !!! info "Project state: functional prototype (V3, Fall 2026)"
     The machine runs complete jobs from the touchscreen: feeder, pick, camera check, place.

@@ -1,5 +1,10 @@
 # 3. Nozzle and Up Camera
 
+<figure class="oshe-video">
+<video src="../../assets/media/close-up.mp4" autoplay loop muted playsinline style="max-width: 420px"></video>
+<figcaption>The nozzle working over the up camera's ring light during a job (real speed).</figcaption>
+</figure>
+
 ## 6. Up-camera map and centre
 
 The up camera has to know exactly where the nozzle axis is in its image.
