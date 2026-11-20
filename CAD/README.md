@@ -2,9 +2,9 @@
 
 <div align="center">
 
-![The assembled V3](../Documentation/docs/assets/lab.jpg)
+![The assembled V3, front view](../Documentation/docs/assets/lab.jpg)
 
-*The assembled V3 with its reel holder. (A V3 render will join this once `PnP_Full_Assembly_V3.step` is added.)*
+*The assembled V3, front view. (A V3 render will join this once `PnP_Full_Assembly_V3.step` is added.)*
 
 </div>
 

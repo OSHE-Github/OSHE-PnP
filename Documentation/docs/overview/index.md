@@ -7,8 +7,8 @@ The machine moves a single vacuum nozzle over a fixed plate. The board sits on t
 feeders sit at the front, and two cameras tell the software exactly where everything is.
 
 <figure class="oshe-photo">
-<img src="../assets/lab.jpg" alt="The V3 machine on a lab bench with the reel holder in front">
-<figcaption>Reels sit in the holder in front, tape runs into the feeders on the front rail, and the touchscreen is on the right.</figcaption>
+<img src="../assets/lab.jpg" alt="Front view of the V3 machine">
+<figcaption>Front view: tape comes up from the reels into the three feeders on the front rail; the touchscreen is on the right.</figcaption>
 </figure>
 
 ## The parts of the machine

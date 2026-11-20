@@ -8,11 +8,7 @@
 
 <div align="center">
 
-![The OSHE Pick and Place V3 with tape feeders, reel holder and touchscreen](Documentation/docs/assets/hero.jpg)
-
-![V3 placing 0603 resistors at real speed](Documentation/docs/assets/media/job-realtime.gif)
-
-*V3 placing parts at real speed: feed, pick, up-camera check, place.*
+![The OSHE Pick and Place V3 with its reel holder, tape feeders and touchscreen](Documentation/docs/assets/hero.jpg)
 
 </div>
 
@@ -79,6 +75,14 @@ Full numbers, plots and the test procedure: `Documentation/docs/testing/`.
 | [`Documentation/`](Documentation) | the documentation site (`docs/`) and sample machine outputs (`samples/`) |
 | [`Media/`](Media) | photos, renders, videos |
 | [`Archive/`](Archive) | earlier tools and the obsolete Nano feeder firmware; the camera-calibration tool in there is still used by V3 |
+
+<div align="center">
+
+![V3 placing 0603 resistors at real speed](Documentation/docs/assets/media/job-realtime.gif)
+
+*V3 placing parts at real speed: feed, pick, up-camera check, place.*
+
+</div>
 
 ## 💻 Getting Started
 
